@@ -2,6 +2,7 @@
  
  import {ref} from 'vue';
  import Cards from './components/Cards.vue';
+import Computed from './components/Computed.vue';
  const text = ref("")
 
 </script>
@@ -14,7 +15,7 @@
     <h2  v-else> Bye Bye</h2>
   </div>-->
 
-  <Cards />
+  <Computed />
 
   <!--Esercizio 2-->
   <!--
