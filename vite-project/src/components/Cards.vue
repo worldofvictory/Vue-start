@@ -14,6 +14,7 @@ const arrayCard = [
     { name: "user5", age: 15, src: 'https://placekitten.com/805/800', alt: "kitten-5"},
     { name: "user6", age: 17, src: 'https://placekitten.com/806/800', alt: "kitten-6"},
 ]
+
 </script>
 
 <template>
