@@ -1,7 +1,7 @@
 <script setup lang="ts">
  
  import {ref} from 'vue';
- 
+ import Cards from './components/Cards.vue';
  const text = ref("")
 
 </script>
@@ -14,6 +14,8 @@
     <h2  v-else> Bye Bye</h2>
   </div>-->
 
+  <Cards />
+
   <!--Esercizio 2-->
   <!--
    <div class="container-2">
@@ -24,8 +26,5 @@
 </template>
 
 <style scoped>
-.title-esercizio1 {
-  position: relative;
-  background-color: red;
-}
+
 </style>

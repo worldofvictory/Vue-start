@@ -1,6 +1,7 @@
 <script setup lang="ts">
  
  import {ref} from 'vue';
+ import Card  from './Card.vue';
  
  const text = ref("")
 
@@ -18,9 +19,13 @@ const arrayCard = [
 </script>
 
 <template>
- 
+    <div>
+ <Card :array-card="arrayCard"/>
+ </div>
 </template>
 
 <style scoped>
-
+ul {
+    list-style: none;
+}
 </style>
